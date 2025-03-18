@@ -95,3 +95,23 @@ footer {
         opacity: 1;
     }
 }
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block; /* Stack navigation items vertically */
+        margin: 10px 0; /* Add margin for spacing */
+    }
+
+    main {
+        padding: 10px; /* Reduce padding on smaller screens */
+    }
+
+    header h1 {
+        font-size: 1.5em; /* Adjust header size */
+    }
+
+    h2 {
+        font-size: 1.2em; /* Adjust section heading size */
+    }
+}
